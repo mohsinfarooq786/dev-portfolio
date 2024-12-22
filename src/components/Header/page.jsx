@@ -8,8 +8,8 @@ const Page = () => {
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
     { name: "Work", path: "/work" },
-    { name: "Blog", path: "/Blog" },
-    { name: "Portfolio", path: "/Portfolio" },
+    { name: "Blog", path: "/blog" },
+    { name: "Portfolio", path: "/portfolio" },
   ];
 
   return (

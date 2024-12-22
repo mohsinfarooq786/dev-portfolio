@@ -1,9 +1,10 @@
 import { Card } from "react-bootstrap";
 
+
 export default function SkillCard({ title, description, icon }) {
   return (
     <div>
-      <Card className="px-4 py-[4rem] h-[26em] flex flex-col items-start bg-[#4A90E211] backdrop-filter backdrop-blur-[0.09rem] border-[0.1rem] border-[solid] border-[#FFFFFF2E] text-white rounded-[3rem]">
+      <Card className="px-4 py-[4rem] h-[26rem] flex flex-col items-start bg-[#4A90E211] backdrop-filter backdrop-blur-[0.09rem] border-[0.1rem] border-[solid] border-[#FFFFFF2E] text-white rounded-[3rem]">
         <div className="cardIcon bg-[#D3E97A] text-black rounded-full p-2.5 ml-4">
           {icon}
         </div>
